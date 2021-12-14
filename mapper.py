@@ -18,12 +18,12 @@ for line in sys.stdin:
 		# Reduce step, i.e. the input for reducer.py
 		print '%s\t%s' % (word, 1)
 
+==============================================================================================================================================================================
 		
 		
 		
 		
-		
-		i.e. let input of map is 
+		i.e. let input of map code  is 
 		the quick quick brown fox jumped jumped
 		
 		then due to strip(removed the spaces) and splitted into List
