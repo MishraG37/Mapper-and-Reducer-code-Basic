@@ -16,7 +16,7 @@ for line in sys.stdin:
 		# write the results to STDOUT (standard output);
 		# what we output here will be the input for the
 		# Reduce step, i.e. the input for reducer.py
-		print '%s\t%s' % (word, 1)
+		print '%s\t%s' % (word, 1)                       (%s means print string ) (\t means give a tab distance)
 
 ==============================================================================================================================================================================
 		
