@@ -17,3 +17,28 @@ for line in sys.stdin:
 		# what we output here will be the input for the
 		# Reduce step, i.e. the input for reducer.py
 		print '%s\t%s' % (word, 1)
+
+		
+		
+		
+		
+		
+		i.e. let input of map is 
+		the quick quick brown fox jumped jumped
+		
+		then due to strip(removed the spaces) and splitted into List
+		words =['the', 'quick', 'quick', 'brown', 'fox', 'jumped', 'jumped']
+		
+		
+		and now we are printing each word,1
+		i.e.
+		
+		
+		the 1
+		quick 1
+		quick 1     ===========> So this is the output of mapper.py and will be now given to reducer.py
+		brown 1 
+		fox 1
+		jumped 1
+		jumped 1
+		
