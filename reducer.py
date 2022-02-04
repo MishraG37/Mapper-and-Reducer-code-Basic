@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from operator import itemgetter
-import sys
+import sys 
 
 current_word = None
 current_count = 0
