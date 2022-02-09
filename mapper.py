@@ -41,4 +41,4 @@ for line in sys.stdin:
 		fox 1
 		jumped 1
 		jumped 1
-		
+		 
